@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: 177194259482.dkr.ecr.us-west-2.amazonaws.com/hello-kubernetes
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 8080
